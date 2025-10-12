@@ -49,13 +49,16 @@ export default function DefaultLayout({
             Engagement
           </Link>
           <Link
-            href="/wedding_invitation"
+            href="/civi-signature"
             style={{ color: "#333", textDecoration: "none" }}
           >
-            Wedding Invitation
+            Civil Marriage
           </Link>
-          <Link href="/venue" style={{ color: "#333", textDecoration: "none" }}>
-            Venue Details
+          <Link
+            href="/wedding"
+            style={{ color: "#333", textDecoration: "none" }}
+          >
+            Wedding
           </Link>
           <Link href="/about" style={{ color: "#333", textDecoration: "none" }}>
             About

@@ -14,12 +14,12 @@ export const siteConfig = {
       href: "/enagement",
     },
     {
-      label: "Wedding Invitation",
-      href: "/wedding_invitation",
+      label: "Civil Marriage",
+      href: "/civil-signature",
     },
     {
-      label: "Venue Details",
-      href: "/venue",
+      label: "Wedding",
+      href: "/wedding",
     },
     {
       label: "About",
@@ -36,12 +36,12 @@ export const siteConfig = {
       href: "/enagement",
     },
     {
-      label: "Wedding Invitation",
-      href: "/wedding_invitation",
+      label: "Civil Marriage",
+      href: "/civil-signature",
     },
     {
-      label: "Venue Details",
-      href: "/venue",
+      label: "Wedding",
+      href: "/wedding",
     },
     {
       label: "About",

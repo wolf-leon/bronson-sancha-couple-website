@@ -6,8 +6,11 @@ import DefaultLayout from "@/layouts/default";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
 const prompt = "Define the Love Story of Bronson and Sancha.";
+
 const words = `
-On Sancha's 21st birthday, Bronson and Sancha realized their love for each other and decided they were made for each other. It was their time, and they were officially engaged. From that day onwards, they began their journey of making memories, exploring new places, sharing adventures, and building a life together filled with love, joy, and endless possibilities. Their story is one of love, commitment, and the beautiful journey of two souls destined to be together. The future awaits them with new possibilities, ready to embrace all the dreams and adventures that lie ahead.
+On Sancha's 21st birthday, Bronson and Sancha realized their love for each other and decided they were made for each other. It was their time, and they were officially engaged. From that day onwards, they began their journey of making memories, exploring new places, sharing adventures, and building a life together filled with love, joy, and endless possibilities. Their story is one of love, commitment, and the beautiful journey of two souls destined to be together. 
+
+And now, with hearts full of gratitude and dreams intertwined, Bronson and Sancha have taken the next step — they are officially married. What began as a spark of young love has blossomed into a lifelong promise. Together, they look forward to writing new chapters of laughter, togetherness, and everlasting love — hand in hand, forever and always.
 `;
 
 export default function IndexPage() {
@@ -33,6 +36,67 @@ export default function IndexPage() {
           <div className="bg-blue-100 text-blue-800 font-semibold py-4 px-6 rounded-lg text-center mb-4 text-lg">
             <TextGenerateEffect words={words} />
           </div>
+        </div>
+      </section>
+
+      <Divider className="my-4" />
+
+      <section className="flex flex-col items-center justify-center gap-4 py-2 md:py-2 mb-6 relative">
+        <div className="w-full md:w-3/4 lg: text-center my-8">
+          <div
+            className="inline-block px-6 rounded-lg"
+            style={{
+              background: "linear-gradient(135deg, #FFF8DC 50%, #FAEBD7 50%)",
+            }}
+          >
+            <h1 className="text-3xl font-bold text-gray-800 font-cursive ">
+              Mogacho Pav - The Path of Love
+            </h1>
+          </div>
+        </div>
+        <Image
+          isBlurred
+          alt="Wedding picture"
+          className="items-center justify-center"
+          src="/wedding-1.jpg"
+          width={370}
+        />
+      </section>
+
+      {/* Text Section */}
+      <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10 px-4">
+        <div className="w-full md:w-3/4 lg: text-center">
+          <p className="text-lg leading-relaxed text-gray-700">
+            On a day filled with love, laughter, and the blessings of those
+            dearest to us, we stood before each other to celebrate the sacred
+            bond of marriage. Surrounded by family, friends, and heartfelt
+            emotions, we exchanged vows that reflected not just our love, but
+            the life we&apos;ve built and the dreams we&apos;ll continue to
+            chase together.
+          </p>
+          <p className="text-lg leading-relaxed text-gray-700 mt-4">
+            Every smile, every tear, and every blessing that day became a part
+            of our story — a moment where love felt infinite and time stood
+            still. It was more than just a wedding; it was the celebration of
+            two souls, once destined to meet, now united in heart, faith, and
+            forever.
+          </p>
+        </div>
+
+        {/* Button Section */}
+        <div className="flex justify-center items-center mt-6">
+          <a
+            className="px-6 py-3 text-lg font-semibold text-gray-800 rounded-full text-center"
+            href="/wedding"
+            style={{
+              backgroundColor: "#FAEBD7", // Light butterscotch color
+              border: "2px solid #FFF8DC",
+              boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+              textDecoration: "none", // Ensure no underline
+            }}
+          >
+            Our Wedding Moments 📸
+          </a>
         </div>
       </section>
 
@@ -82,7 +146,7 @@ export default function IndexPage() {
         {/* Button Section */}
         <div className="flex justify-center items-center mt-6">
           <a
-            className="px-6 py-3 text-lg font-semibold text-gray-800 rounded-lg text-center"
+            className="px-6 py-3 text-lg font-semibold text-gray-800 rounded-full text-center"
             href="/civil-signature"
             style={{
               backgroundColor: "#FAEBD7", // Light butterscotch color
@@ -91,7 +155,7 @@ export default function IndexPage() {
               textDecoration: "none", // Ensure no underline
             }}
           >
-            Relive the Moments That Made Our Day Special Here
+            Relive Our First Step Together ✨
           </a>
         </div>
       </section>
