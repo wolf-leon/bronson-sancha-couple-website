@@ -35,8 +35,6 @@ export default function DocsPage() {
     "/gallery-32.jpg",
     "/gallery-33.jpg",
     "/gallery-34.jpg",
-    // "/gallery-35.jpg",
-    // "/gallery-36.jpg",
     "/gallery-37.jpg",
     "/gallery-17.jpg",
     "/gallery-27.jpg",
@@ -45,6 +43,7 @@ export default function DocsPage() {
 
   return (
     <DefaultLayout>
+      {/* Bronson Section */}
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
         <div className="inline-block max-w-lg text-center justify-center">
           <div
@@ -63,9 +62,8 @@ export default function DocsPage() {
             isBlurred
             alt="Bronson"
             className="rounded-lg my-6"
-            width={250}
-            // height={250}
             src="/groom-1.jpg"
+            width={250}
           />
           <h2 className="text-3xl font-semibold my-2">Bronson D&apos;costa</h2>
           <p className="text-base text-gray-600 my-4">
@@ -94,6 +92,7 @@ export default function DocsPage() {
         </div>
       </section>
 
+      {/* Sancha Section */}
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
         <div className="inline-block max-w-lg text-center justify-center">
           <div
@@ -112,9 +111,8 @@ export default function DocsPage() {
             isBlurred
             alt="Sancha"
             className="rounded-lg my-6"
-            width={250}
-            // height={250}
             src="/bride-1.jpg"
+            width={250}
           />
           <h2 className="text-3xl font-semibold my-2">Sancha D&apos;costa</h2>
           <p className="text-base text-gray-600 my-4">
@@ -143,6 +141,7 @@ export default function DocsPage() {
         </div>
       </section>
 
+      {/* Memories Section */}
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
         <div className="w-full md:w-3/4 lg:w-1/2 text-center mb-4">
           <div
@@ -157,16 +156,15 @@ export default function DocsPage() {
           </div>
         </div>
 
-        {/* Image Grid Section */}
+        {/* Image Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-4 w-full">
           {images.map((image, index) => (
             <div key={index} className="flex justify-center">
               <Image
+                alt={`Memories Image ${index + 1}`}
                 className="rounded-lg shadow-md"
                 src={image}
                 width={300}
-                // height={300}
-                alt={`Memories Image ${index + 1}`}
               />
             </div>
           ))}
