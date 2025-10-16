@@ -1,6 +1,7 @@
 import { Image } from "@heroui/image";
 
 import DefaultLayout from "@/layouts/default";
+import { title } from "@/components/primitives";
 
 export default function DocsPage() {
   const images = [
@@ -30,13 +31,10 @@ export default function DocsPage() {
     <DefaultLayout>
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
         <div className="text-center mb-4">
-          <div
-            className="inline-block px-6 rounded-lg"
-            style={{
-              background: "linear-gradient(135deg, #FFF8DC 50%, #FAEBD7 50%)",
-            }}
-          >
-            <h1 className="text-3xl font-bold text-gray-800 font-cursive">
+          <div className="flex flex-col items-center justify-center py-12 px-4 bg-gradient-to-r from-pink-100 via-white to-yellow-50 text-center">
+            <h1
+              className={`${title()} text-3xl md:text-6xl font-cursive text-pink-700`}
+            >
               Engagement Proposal: Beginning Our Forever
             </h1>
           </div>
@@ -82,13 +80,10 @@ export default function DocsPage() {
         {/* More Glimpses Section */}
         <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10 px-4">
           <div className="text-center w-full md:w-3/4 lg:text-center mb-4">
-            <div
-              className="inline-block px-6 rounded-lg"
-              style={{
-                background: "linear-gradient(135deg, #FFF8DC 50%, #FAEBD7 50%)",
-              }}
-            >
-              <h1 className="text-3xl font-bold text-gray-800 font-cursive">
+            <div className="flex flex-col items-center justify-center py-12 px-4 bg-gradient-to-r from-pink-100 via-white to-yellow-50 text-center">
+              <h1
+                className={`${title()} text-3xl md:text-6xl font-cursive text-pink-700`}
+              >
                 More Glimpses from our beautiful Night
               </h1>
             </div>

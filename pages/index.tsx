@@ -4,6 +4,7 @@ import { Image } from "@heroui/image";
 
 import DefaultLayout from "@/layouts/default";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
+import { title } from "@/components/primitives";
 
 const prompt = "Define the Love Story of Bronson and Sancha.";
 
@@ -18,13 +19,10 @@ export default function IndexPage() {
     <DefaultLayout>
       <section className="flex flex-col items-center justify-center gap-4 py-2 md:py-2 mb-6">
         <div className="w-full md:w-3/4 lg:w-1/2 text-center mb-4">
-          <div
-            className="inline-block px-6 rounded-lg"
-            style={{
-              background: "linear-gradient(135deg, #FFF8DC 50%, #FAEBD7 50%)",
-            }}
-          >
-            <h1 className="text-3xl font-bold text-gray-800 font-cursive">
+          <div className="flex flex-col items-center justify-center py-12 px-4 bg-gradient-to-r from-pink-100 via-white to-yellow-50 text-center">
+            <h1
+              className={`${title()} text-3xl md:text-6xl font-cursive text-pink-700`}
+            >
               Chronicles of Love: A Tale Unfolds
             </h1>
           </div>
@@ -43,14 +41,11 @@ export default function IndexPage() {
 
       <section className="flex flex-col items-center justify-center gap-4 py-2 md:py-2 mb-6 relative">
         <div className="w-full md:w-3/4 lg: text-center my-8">
-          <div
-            className="inline-block px-6 rounded-lg"
-            style={{
-              background: "linear-gradient(135deg, #FFF8DC 50%, #FAEBD7 50%)",
-            }}
-          >
-            <h1 className="text-3xl font-bold text-gray-800 font-cursive ">
-              Mogacho Pav - The Path of Love
+          <div className="flex flex-col items-center justify-center py-12 px-4 bg-gradient-to-r from-pink-100 via-white to-yellow-50 text-center">
+            <h1
+              className={`${title()} text-3xl md:text-6xl font-cursive text-pink-700`}
+            >
+              Kazarachem Utor - The Path of Love
             </h1>
           </div>
         </div>
@@ -105,13 +100,10 @@ export default function IndexPage() {
       {/* Civil Signature Section */}
       <section className="flex flex-col items-center justify-center gap-4 py-2 md:py-2 mb-6 relative">
         <div className="w-full md:w-3/4 lg: text-center my-8">
-          <div
-            className="inline-block px-6 rounded-lg"
-            style={{
-              background: "linear-gradient(135deg, #FFF8DC 50%, #FAEBD7 50%)",
-            }}
-          >
-            <h1 className="text-3xl font-bold text-gray-800 font-cursive ">
+          <div className="flex flex-col items-center justify-center py-12 px-4 bg-gradient-to-r from-pink-100 via-white to-yellow-50 text-center">
+            <h1
+              className={`${title()} text-3xl md:text-6xl font-cursive text-pink-700`}
+            >
               A New Chapter Begins: Our Civil Marriage
             </h1>
           </div>
@@ -165,13 +157,10 @@ export default function IndexPage() {
       {/* New Section with Image and Text */}
       <section className="flex flex-col items-center justify-center gap-4 py-2 md:py-2 mb-6 relative">
         <div className="w-full md:w-3/4 lg: text-center my-8">
-          <div
-            className="inline-block px-6 rounded-lg"
-            style={{
-              background: "linear-gradient(135deg, #FFF8DC 50%, #FAEBD7 50%)",
-            }}
-          >
-            <h1 className="text-3xl font-bold text-gray-800 font-cursive ">
+          <div className="flex flex-col items-center justify-center py-12 px-4 bg-gradient-to-r from-pink-100 via-white to-yellow-50 text-center">
+            <h1
+              className={`${title()} text-3xl md:text-6xl font-cursive text-pink-700`}
+            >
               Love Unveiled: The Endless Journey of Bronson & Sancha
             </h1>
           </div>
@@ -201,13 +190,10 @@ export default function IndexPage() {
       {/* Section 2 */}
       <section className="flex flex-col items-center justify-center gap-4 py-2 md:py-2 mb-6 relative">
         <div className="w-full md:w-3/4 lg: text-center my-8">
-          <div
-            className="inline-block px-6 rounded-lg"
-            style={{
-              background: "linear-gradient(135deg, #FFF8DC 50%, #FAEBD7 50%)",
-            }}
-          >
-            <h1 className="text-3xl font-bold text-gray-800 font-cursive ">
+          <div className="flex flex-col items-center justify-center py-12 px-4 bg-gradient-to-r from-pink-100 via-white to-yellow-50 text-center">
+            <h1
+              className={`${title()} text-4xl md:text-6xl font-cursive text-pink-700`}
+            >
               Families: Uniting Together
             </h1>
           </div>

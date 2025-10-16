@@ -1,6 +1,7 @@
 import { Image } from "@heroui/image";
 
 import DefaultLayout from "@/layouts/default";
+import { title } from "@/components/primitives";
 
 export default function DocsPage() {
   const images = [
@@ -46,13 +47,10 @@ export default function DocsPage() {
       {/* Bronson Section */}
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
         <div className="inline-block max-w-lg text-center justify-center">
-          <div
-            className="inline-block px-6 rounded-lg"
-            style={{
-              background: "linear-gradient(135deg, #FFF8DC 50%, #FAEBD7 50%)",
-            }}
-          >
-            <h1 className="text-3xl font-bold text-gray-800 font-cursive">
+          <div className="flex flex-col items-center justify-center py-12 px-4 bg-gradient-to-r from-pink-100 via-white to-yellow-50 text-center">
+            <h1
+              className={`${title()} text-4xl md:text-6xl font-cursive text-pink-700`}
+            >
               The Man of the Hour: Bronson D&apos;costa
             </h1>
           </div>
@@ -95,13 +93,10 @@ export default function DocsPage() {
       {/* Sancha Section */}
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
         <div className="inline-block max-w-lg text-center justify-center">
-          <div
-            className="inline-block px-6 rounded-lg"
-            style={{
-              background: "linear-gradient(135deg, #FFF8DC 50%, #FAEBD7 50%)",
-            }}
-          >
-            <h1 className="text-3xl font-bold text-gray-800 font-cursive">
+          <div className="flex flex-col items-center justify-center py-12 px-4 bg-gradient-to-r from-pink-100 via-white to-yellow-50 text-center">
+            <h1
+              className={`${title()} text-3xl md:text-6xl font-cursive text-pink-700`}
+            >
               The Woman of his Dreams: Sancha D&apos;costa
             </h1>
           </div>
@@ -144,13 +139,10 @@ export default function DocsPage() {
       {/* Memories Section */}
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
         <div className="w-full md:w-3/4 lg:w-1/2 text-center mb-4">
-          <div
-            className="inline-block px-6 rounded-lg"
-            style={{
-              background: "linear-gradient(135deg, #FFF8DC 50%, #FAEBD7 50%)",
-            }}
-          >
-            <h1 className="text-3xl font-bold text-gray-800 font-cursive">
+          <div className="flex flex-col items-center justify-center py-12 px-4 bg-gradient-to-r from-pink-100 via-white to-yellow-50 text-center">
+            <h1
+              className={`${title()} text-3xl md:text-6xl font-cursive text-pink-700`}
+            >
               Memories We Wrote
             </h1>
           </div>

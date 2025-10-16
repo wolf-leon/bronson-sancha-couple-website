@@ -49,7 +49,7 @@ export default function DefaultLayout({
             Engagement
           </Link>
           <Link
-            href="/civi-signature"
+            href="/civil-signature"
             style={{ color: "#333", textDecoration: "none" }}
           >
             Civil Marriage
